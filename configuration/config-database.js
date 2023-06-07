@@ -2,9 +2,9 @@ const serviceModuleRest = require('../service/service-module-rest')
 class ConfigDatabase extends serviceModuleRest {
     #infoDatabase = {
         h : "127.0.0.1" ,
-        u : "root" ,
-        p : "12345" ,
-        port : "3306" ,
+        u : ""***"" ,
+        p : "***" ,
+        port : ""***"" ,
         d : "bookstore"
     }
     #mysql = require('mysql2');
